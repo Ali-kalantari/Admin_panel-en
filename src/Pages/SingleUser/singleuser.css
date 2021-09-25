@@ -1,0 +1,151 @@
+.single-user{
+    flex: 4;
+    padding: 20px;
+}
+.user-title-container{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.user-title-container button{
+width: 80px;
+border:none;
+padding: 5px;
+background-color: teal;
+border-radius: 6px;
+cursor: crosshair;
+font-size: 16px;
+color: white;
+}
+.user-title-container button:hover{
+    background-color: darkturquoise;
+    transition: all 0.5s ease-in;
+}
+.user-container{
+    display: flex;
+    margin-top: 30px;
+
+}
+.user-update{
+    flex: 2;
+    box-shadow: 5px 5px 15px 5px #b4c9bd;
+    padding: 20px;
+
+}
+.user-show{
+    flex: 1;
+    padding: 20px;
+    box-shadow: 5px 5px 15px 5px #b4c9bd;
+    margin-right: 10px;
+}
+
+.user-show-top{
+    display: flex;
+    align-items: center;
+}
+.user-show-top img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.user-show-top-title{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.user-show-top-title span{
+    font-weight: 600;
+}
+.usertitle{
+    font-weight: 300;
+}
+
+.user-show-bottom-title{
+    font-size: 13px;
+    font-weight: 600;
+    color: rgb(114, 108, 108);
+}
+.usershowinfo{
+display: flex;
+align-items: center;
+margin: 20px;
+}
+.user-show-bottom{
+    margin-top: 20px;
+}
+#icon{
+    font-size: 17px !important;
+}
+.user-show-bottom-infotitle{
+    margin-left: 10px;
+}
+.user-update-title{
+    font-weight: 600;
+    font-size: 22px;
+}
+.user-update-form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.user-update-left{
+    width: 50%;
+}
+.user-update-item{
+    display: flex;
+    flex-direction: column;
+}
+.user-update-input{
+    box-sizing: border-box;
+  width: 80%;
+  font-family: inherit;
+  padding: 0px 20px 0 8px;
+  height: 22px;
+  font-size: 14px;
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(204, 199, 199);
+  color: black;
+  margin-top: 10px;
+}
+.user-update-item>label{
+margin-top: 7px;
+font-size: 15px;
+}
+#file{
+    display: none;
+}
+.user-update-upload{
+    display: flex;
+    align-items: center;
+}
+.user-update-upload img{
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    border-radius: 12px;
+    margin-top: 20px;
+    object-fit: cover;
+}
+#publish{
+    cursor: pointer;
+    font-size: 30px;
+    margin-left: 55px;
+}
+.user-update-right{
+    width: 40%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.user-update-button
+{
+    border-radius: 5px;
+    padding: 5px;
+    background-color: darkblue;
+    cursor: pointer;
+    color: white;
+}

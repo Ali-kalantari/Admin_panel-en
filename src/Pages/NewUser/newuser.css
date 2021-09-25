@@ -1,0 +1,69 @@
+.new-user {
+  flex: 4;
+}
+.new-user form {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.new-user-item {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}
+.new-user-item > input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border-bottom: 1px solid gray;
+  height: 25px;
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(228, 218, 218);
+}
+.new-user-item > label {
+  margin-bottom: 10px;
+  font-weight: 600;
+  color: darkgray;
+  font-size: 14px;
+}
+#Activity {
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: rgb(228, 218, 218);
+}
+
+.gender-item > label {
+  margin: 10px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.gender-item > label:hover {
+  margin: 10px;
+  color: teal;
+  transition: color 0.3s ease-in;
+}
+.gender-item>input[type='radio']:checked{
+    color: tomato;
+    cursor: pointer;
+    background: #0DFF92;
+    border: 5px solid #0DFF92;
+}
+.gender-item > input {
+  margin-top: 15px;
+}
+.submit-user {
+  height: 36px;
+  width: 250px;
+  background-color: darkblue;
+  padding: 7px 10px;
+  color: white;
+  margin-top: 80px;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-left: 23%;
+}

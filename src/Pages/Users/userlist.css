@@ -1,0 +1,26 @@
+.user-list{
+    flex:4; 
+}
+.user-list-user{
+    display: flex;
+    align-items: center;
+    
+}
+.user-list-user img{
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+    margin-right: 9px;
+}
+.user-list-edit{
+    cursor: pointer;
+    margin-right: 12px;
+    background-color: rgb(120, 161, 126);
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+}
+.user-list-icon{
+    cursor: pointer;
+    color: red;
+}

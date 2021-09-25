@@ -1,0 +1,14 @@
+.new-pro{
+    flex: 4;
+}
+#_upload{
+    cursor: pointer;
+}
+#in_stock,#status{
+    background-color: rgb(218, 205, 205);
+    border-radius: 5px;
+    height: 25px;
+}
+#create-btn{
+    margin-top: 20px;
+}
